@@ -1,6 +1,6 @@
 [![SQL Project](sqlthumbnail.jpg)](./)
 
-# [os-sales-history-db-project](https://github.com/jose3vazquez/OS-Sales-History-DB-Project/blob/main/TABLE_OF_CONTENTS.md)
+
 
 OBT (One Big Table) and 5 queries which are real-world and produce useful insights to showcase SQL Skills.
 
@@ -40,7 +40,7 @@ This image validates the existence and deployment of the clouddnova SQL Server a
    SELECT TOP (1000) *
    FROM dbo.os_sales_hist;
 ```
-✅ See screenshot: [query1_os_sales_hist_select_all.jpg](https://raw.githubusercontent.com/jose3vazquez/OS-Sales-History-DB-Project/main/IMAGES/query1_os_sales_hist_select_all.jpg)
+✅ See screenshot: [query1_os_sales_hist_select_all.jpg](https://github.com/krish21404/OS-Sales-History-DB-Project/blob/main/IMAGES/query1_os_sales_hist_select_all.jpg)
 
 ### 2. Top Performing OS by Total Revenue
 **Question:** Which operating systems generated the highest total revenue?
@@ -53,7 +53,7 @@ This image validates the existence and deployment of the clouddnova SQL Server a
     ORDER BY total_revenue_generated DESC;
 ```
 
-✅ See screenshot: [query2_top_os_revenue.jpg](https://raw.githubusercontent.com/jose3vazquez/OS-Sales-History-DB-Project/main/IMAGES/query2_top_os_revenue.jpg)
+✅ See screenshot: [query2_top_os_revenue.jpg](https://github.com/krish21404/OS-Sales-History-DB-Project/blob/main/IMAGES/query2_top_os_revenue.jpg)
 
 ### 3. Year-over-Year Sales Trend
 **Question:** What are the total units sold each year?
@@ -65,7 +65,7 @@ This image validates the existence and deployment of the clouddnova SQL Server a
    GROUP BY YEAR(sales_date)
    ORDER BY year ASC;
 ```
-✅ See screenshot: [query3_yoy_units_sold.jpg](https://raw.githubusercontent.com/jose3vazquez/OS-Sales-History-DB-Project/main/IMAGES/query3_yoy_units_sold.jpg)
+✅ See screenshot: [query3_yoy_units_sold.jpg](https://github.com/krish21404/OS-Sales-History-DB-Project/blob/main/IMAGES/query3_yoy_units_sold.jpg)
 
 ### 4. Regional Performance Breakdown
 **Question:** What is the total revenue by sales region?
@@ -77,7 +77,7 @@ This image validates the existence and deployment of the clouddnova SQL Server a
    GROUP BY region
    ORDER BY total_revenue DESC;
 ```
-✅ See screenshot: [query4_region_revenue.jpg](https://raw.githubusercontent.com/jose3vazquez/OS-Sales-History-DB-Project/main/IMAGES/query4_region_revenue.jpg)
+✅ See screenshot: [query4_region_revenue.jpg](https://github.com/krish21404/OS-Sales-History-DB-Project/blob/main/IMAGES/query4_region_revenue.jpg)
 
 ### 5. Channel Profitability Comparison
 **Question:** Which distribution channel generated the most revenue?
@@ -89,7 +89,7 @@ This image validates the existence and deployment of the clouddnova SQL Server a
    GROUP BY channel
    ORDER BY revenue_by_channel DESC;
    ```
-✅ See screenshot: [query5_channel_profitability.jpg](https://raw.githubusercontent.com/jose3vazquez/OS-Sales-History-DB-Project/main/IMAGES/query5_channel_profitability.jpg)
+✅ See screenshot: [query5_channel_profitability.jpg](https://github.com/krish21404/OS-Sales-History-DB-Project/blob/main/IMAGES/query5_channel_profitability.jpg)
 
 
 ### 🛠️ Tools Used
