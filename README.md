@@ -1,3 +1,11 @@
+
+>
+> This repository is a fork of the original **OS Sales History DB Project**
+> created by **krish21404**.
+>
+> **Maintained, analyzed, and documented by Devarshi Srivastava**
+> for learning, SQL practice, Azure database exploration, and interview preparation.
+
 [![SQL Project](sqlthumbnail.jpg)](./)
 
 
@@ -119,6 +127,22 @@ Azure SQL Database interaction
 Azure Data Studio navigation
 
 ### Completed July 30 2025 - This project is not licensed for reuse.
+
+
+---
+
+## 👤 Maintainer (Forked Version)
+
+**Devarshi Srivastava**
+
+### My Focus Areas in This Fork
+- Understanding real-world SQL queries and aggregation logic
+- Working with Azure SQL Database and Azure Data Studio
+- Interpreting business insights from sales data
+- Validating results through screenshots and query outputs
+
+This fork demonstrates my ability to analyze structured datasets,
+write optimized SQL queries, and work with cloud-based databases.
 
 
 
